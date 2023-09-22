@@ -24,3 +24,9 @@ h2 {
     color: black;
     font-size: 20px;
 }
+
+.muscle_btn {
+    background-color: #199319;
+    color: white;
+    padding: 15px 25px;
+}
