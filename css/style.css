@@ -2,31 +2,129 @@ body {
     background-color: #ffffff;
 }
 
-h1 {
-    color:black;
+.title {
+    position: relative; 
+    /* width:240px; */
+}
+
+.title h1 {
     font-size: 100px;
+    width: 700px;
     text-align: center;
+    padding: 20px;
+    border: 10px solid green;
+    color:black;
+    margin: auto;
+}
+
+#push-btn {
+    background-color: rgb(10, 243, 22);
+    padding: 10px;
+    border: 5px black; 
+    border-radius: 50%;
+    object-position: right;
+}
+
+
+/* .button {
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: #07fc13;
+    color: #000000;
+    padding: 12px 16px 12px 16px;
+    border-top: 11px solid #CCCCCC;
+    border-right: 11px solid #333333;
+    border-bottom: 11px solid #333333;
+    border-left: 11px solid #CCCCCC;
+  } */
+
+
+.push-btn {
+    position: relative; 
+    left: 700px;
+    font-size: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: #07fc13;
+    color: #000000;
+    padding: 12px 16px 12px 16px;
+    border-top: 11px solid #CCCCCC;
+    border-right: 11px solid #333333;
+    border-bottom: 11px solid #333333;
+    border-left: 11px solid #CCCCCC;
+}
+.pull-btn {
+    position: relative; 
+    left: 700px;
+    font-size: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: #07fc13;
+    color: #000000;
+    padding: 12px 16px 12px 16px;
+    border-top: 11px solid #CCCCCC;
+    border-right: 11px solid #333333;
+    border-bottom: 11px solid #333333;
+    border-left: 11px solid #CCCCCC;
+}
+
+.legs-btn {
+    position: relative; 
+    left: 700px;
+    font-size: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: #07fc13;
+    color: #000000;
+    padding: 12px 16px 12px 16px;
+    border-top: 11px solid #CCCCCC;
+    border-right: 11px solid #333333;
+    border-bottom: 11px solid #333333;
+    border-left: 11px solid #CCCCCC;
+}
+
+#barbell-1 {
+    position: absolute; 
+    top: 80px; 
+    left: 610px;
+    width: 150px;
+}
+
+#barbell-2 {
+    position: absolute; 
+    top: 80px; 
+    right: 610px;
+    width: 150px;
 }
 
 h2 {
     color: black;
     font-size: 50px;
+    background-color: pink;
+    padding: 30px;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px pink;
+    margin: 0;
+    position: relative;
+    top: 50px;
+
 }
 
-.my_bullet {
+
+.bullet_title {
     text-align: left;
     color: black;
-    font-size: 30px;
+    font-size: 25px;
+
+    
 }
 
-.bullet_text {
+.bullet {
     text-align: left;
     color: black;
     font-size: 20px;
+    list-style-type: circle;
 }
 
-.muscle_btn {
-    background-color: #199319;
-    color: white;
-    padding: 15px 25px;
-}
