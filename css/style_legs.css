@@ -8,6 +8,7 @@ body {
     /* width:240px; */
 }
 
+/* Positions the title header to center with green box */
 .title h1 {
     font-size: 100px;
     width: 700px;
@@ -17,7 +18,7 @@ body {
     color:black;
     margin: auto;
 }
-
+/* Positions picture to left of h1 */
 #squat-man {
     position: absolute; 
     /* meaning it is positioned relative to the nearest positioned ancestor */
@@ -25,7 +26,7 @@ body {
     left: 640px;
     width: 100px;
 }
-
+/* Positions picture to right of h1 */
 #squat-woman {
     position: absolute; 
     top: 10px; 
@@ -33,6 +34,7 @@ body {
     width: 150px;
 }
 
+/* Header 2 */
 h2 {
     font-size: 30px;
     text-indent: 10px;
@@ -56,7 +58,7 @@ h2 {
     line-height: 75px;
     font-size: 30px;
   }
-
+/* Positions table within the left text box made above */
 .legs-explained .box .legs-tbl {
 
     background-color: white;

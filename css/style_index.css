@@ -7,6 +7,7 @@ body {
     /* width:240px; */
 }
 
+/* Positions the title header to center with green box */
 .title h1 {
     font-size: 100px;
     width: 700px;
@@ -18,20 +19,7 @@ body {
 }
 
 
-
-/* .button {
-    border-radius: 50%;
-    text-decoration: none;
-    background-color: #07fc13;
-    color: #000000;
-    padding: 12px 16px 12px 16px;
-    border-top: 11px solid #CCCCCC;
-    border-right: 11px solid #333333;
-    border-bottom: 11px solid #333333;
-    border-left: 11px solid #CCCCCC;
-  } */
-
-
+/* Makes push btn */
 .push-btn {
     position: relative; 
     left: 600px;
@@ -47,6 +35,8 @@ body {
     border-bottom: 11px solid #333333;
     border-left: 11px solid #CCCCCC;
 }
+
+/* Makes Pull btn */
 .pull-btn {
     position: relative; 
     left: 750px;
@@ -63,6 +53,7 @@ body {
     border-left: 11px solid #CCCCCC;
 }
 
+/* Makes legs btn */
 .legs-btn {
     position: relative; 
     left: 900px;
@@ -79,6 +70,7 @@ body {
     border-left: 11px solid #CCCCCC;
 }
 
+/* Positions left picture next to h1 */
 #barbell-1 {
     position: absolute; 
     top: 80px; 
@@ -86,6 +78,7 @@ body {
     width: 150px;
 }
 
+/* Positions right picture next to h1 */
 #barbell-2 {
     position: absolute; 
     top: 80px; 
@@ -93,6 +86,7 @@ body {
     width: 150px;
 }
 
+/* Deals with h2 and it's text box */
 h2 {
     color: black;
     font-size: 50px;
@@ -110,7 +104,7 @@ h2 {
 }
 
 
-
+/* Deals with whole bullet list on why you need to lift */
 .List {
     margin-top: 70px;
     text-indent: 50px;
@@ -124,6 +118,8 @@ h2 {
 
 }
 
+
+/* Deals with the bullet title, bolds, spaces, allignment  */
 .bullet_title {
 
     text-align: left;
@@ -133,6 +129,7 @@ h2 {
     font-weight: bold;
 }
 
+/* Deals with the bullet, bolds, spaces, allignment  */
 .bullet {
     text-align: left;
     color: black;
