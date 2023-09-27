@@ -1,0 +1,84 @@
+<!-- File: pull.html
+GUI Assignment: Creating Your First Web Page
+Wenjin Zhou, UMass Lowell Computer Science,
+Mihir_Parekh@student.uml.edu
+Copyright (c) 2021 by Mihr. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by WZ on September 26, 2021 at 8:18 PM -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style_pull.css"> <!-- Link the specific style sheet -->
+  </head>
+  <body>
+    <div class="title"> <!-- Made a div class to encorporate the two images and apply an attribute to them -->
+        <h1>PULL</h1>
+        <img id="pull-up-1" src="images/pull.jpg" alt="Cartoon Barbell"> <!-- Links images and give specific ID to deal with image specifically -->
+        <img id="pull-up-2" src="images/pull.jpg" alt="Cartoon Barbell"> <!-- Links images and give specific ID to deal with image specifically -->
+    </div>
+        
+        <h2>Pull Day Explained</h2>  <!-- Header for the day  -->
+
+        <div class="pull-explained"> <!-- Made a another div class to encapsulate the two box classes to make code more re-usable -->
+            <div class="box">  <!-- Box div class contains text here  -->
+                <p id="text">Starting off with <strong>Pull Ups</strong>, it's a great full body excercise to warm up your back and core. Second is the <strong>Lat Pull Down</strong> a 
+                great lift targeting the latissimus dorsi, the largest muscle in the back, as well as your biceps, rear delts, rhomboids and traps. <strong>Rows</strong>, target the 
+            lats, rear delts, lower traps, rhomboids, and spinal erectors. Because of the high number of muscles being targeted, it's best practice to go heavy to spread the load across
+        all helping muscles. Next up is <strong>Machine Curls</strong>, an exercise targeting the bicep that needs to be perfomed slow and controlled, squeezing on every rep. Lastly we'll 
+    end the workout off with <strong>Standing Cable Curls</strong>, going extremely light to feel every rep.</p>
+            </div>
+                <div class="box">  <!-- Box class contains table here with another class to deal with table attributes -->
+                <table class="pull-tbl">
+                    <tr>
+                        <th>Exercise Name</th>
+                        <th>Sets</th>
+                        <th>Repetitions</th>
+                        <th>Intensity</th>
+                    </tr>
+                    <tr>
+                        <td>Pull Ups</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>Light</td>
+                    </tr>
+                    <tr>
+                        <td>Lat Pull Down</td>
+                        <td>3</td>
+                        <td>6</td>
+                        <td>Heavy</td>
+                    </tr>
+                    <tr>
+                        <td>Rows</td>
+                        <td>3</td>
+                        <td>6</td>
+                        <td>Heavy</td>
+                    </tr>
+                    <tr>
+                        <td>Machine Curls</td>
+                        <td>3</td>
+                        <td>10</td>
+                        <td>Medium</td>
+                    </tr>
+                    <tr>
+                        <td>Standing Cable Curls</td>
+                        <td>2</td>
+                        <td>8</td>
+                        <td>Light</td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+        
+ <!-- Class for each button to handle location and attribute, meant to take you to another page -->
+        <a class="push-btn" href="push.html">Push</a>
+        <a class="home-btn" href="index.html">Home</a>
+        <a class="legs-btn" href="legs.html">Legs</a>  
+   
+	</body>
+	<!-- <script src="script.js"></script> -->
+</html>

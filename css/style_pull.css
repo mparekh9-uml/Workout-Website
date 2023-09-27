@@ -17,31 +17,63 @@ body {
     margin: auto;
 }
 
-#push-btn {
-    background-color: rgb(10, 243, 22);
-    padding: 10px;
-    border: 5px black; 
-    border-radius: 50%;
-    object-position: right;
+#pull-up-1 {
+    position: absolute; 
+    top: 10px; 
+    left: 610px;
+    width: 150px;
 }
 
+#pull-up-2 {
+    position: absolute; 
+    top: 10px; 
+    right: 610px;
+    width: 150px;
+}
 
-/* .button {
-    border-radius: 50%;
-    text-decoration: none;
-    background-color: #07fc13;
-    color: #000000;
-    padding: 12px 16px 12px 16px;
-    border-top: 11px solid #CCCCCC;
-    border-right: 11px solid #333333;
-    border-bottom: 11px solid #333333;
-    border-left: 11px solid #CCCCCC;
-  } */
+h2 {
+    font-size: 30px;
+    text-indent: 10px;
+    font-weight: bold;
+    
+}
+
+.pull-explained {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+  }
+  
+.pull-explained .box {
+    background-color: pink;
+    width: 50%;
+    margin: 5px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+.pull-explained .box .pull-tbl {
+
+    background-color: white;
+    width: 70%;
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: 25px;
+    margin-top: 3%;
+}
+
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+
 
 
 .push-btn {
+    left: 600px;
     position: relative; 
-    left: 700px;
+    top: 50px;
     font-size: 50px;
     border-radius: 50%;
     text-decoration: none;
@@ -53,9 +85,11 @@ body {
     border-bottom: 11px solid #333333;
     border-left: 11px solid #CCCCCC;
 }
-.pull-btn {
+
+.home-btn {
+    left: 750px;
     position: relative; 
-    left: 700px;
+    top: 50px;
     font-size: 50px;
     border-radius: 50%;
     text-decoration: none;
@@ -69,8 +103,9 @@ body {
 }
 
 .legs-btn {
+    left: 900px;
     position: relative; 
-    left: 700px;
+    top: 50px;
     font-size: 50px;
     border-radius: 50%;
     text-decoration: none;
@@ -83,48 +118,8 @@ body {
     border-left: 11px solid #CCCCCC;
 }
 
-#barbell-1 {
-    position: absolute; 
-    top: 80px; 
-    left: 610px;
-    width: 150px;
+#text {
+    font-size: 28px;
+    line-height: 50px;
+    padding: 10px;
 }
-
-#barbell-2 {
-    position: absolute; 
-    top: 80px; 
-    right: 610px;
-    width: 150px;
-}
-
-h2 {
-    color: black;
-    font-size: 50px;
-    background-color: pink;
-    padding: 30px;
-    border-top: 5px solid black;
-    border-left: 5px solid black;
-    border-right: 5px solid black;
-    border-bottom: 5px pink;
-    margin: 0;
-    position: relative;
-    top: 50px;
-
-}
-
-
-.bullet_title {
-    text-align: left;
-    color: black;
-    font-size: 25px;
-
-    
-}
-
-.bullet {
-    text-align: left;
-    color: black;
-    font-size: 20px;
-    list-style-type: circle;
-}
-

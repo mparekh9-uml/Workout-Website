@@ -1,0 +1,125 @@
+body {
+    background-color: #ffffff;
+}
+
+.title {
+    position: relative; 
+    /* width:240px; */
+}
+
+.title h1 {
+    font-size: 100px;
+    width: 700px;
+    text-align: center;
+    padding: 20px;
+    border: 10px solid green;
+    color:black;
+    margin: auto;
+}
+
+#push-up-1 {
+    position: absolute; 
+    top: 20px; 
+    left: 610px;
+    width: 175px;
+}
+
+#push-up-2 {
+    position: absolute; 
+    top: 10px; 
+    right: 610px;
+    width: 150px;
+}
+
+h2 {
+    font-size: 30px;
+    text-indent: 10px;
+    font-weight: bold;
+    
+}
+
+.push-explained {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+  }
+  
+.push-explained .box {
+    background-color: pink;
+    width: 50%;
+    margin: 5px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+.push-explained .box .push-tbl {
+
+    background-color: white;
+    width: 70%;
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: 25px;
+    margin-top: 3%;
+}
+
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+
+
+
+.pull-btn {
+    left: 600px;
+    position: relative; 
+    top: 50px;
+    font-size: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: #07fc13;
+    color: #000000;
+    padding: 12px 16px 12px 16px;
+    border-top: 11px solid #CCCCCC;
+    border-right: 11px solid #333333;
+    border-bottom: 11px solid #333333;
+    border-left: 11px solid #CCCCCC;
+}
+
+.home-btn {
+    left: 750px;
+    position: relative; 
+    top: 50px;
+    font-size: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: #07fc13;
+    color: #000000;
+    padding: 12px 16px 12px 16px;
+    border-top: 11px solid #CCCCCC;
+    border-right: 11px solid #333333;
+    border-bottom: 11px solid #333333;
+    border-left: 11px solid #CCCCCC;
+}
+
+.legs-btn {
+    left: 900px;
+    position: relative; 
+    top: 50px;
+    font-size: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: #07fc13;
+    color: #000000;
+    padding: 12px 16px 12px 16px;
+    border-top: 11px solid #CCCCCC;
+    border-right: 11px solid #333333;
+    border-bottom: 11px solid #333333;
+    border-left: 11px solid #CCCCCC;
+}
+
+#text {
+    font-size: 32px;
+    line-height: 50px;
+    padding: 10px;
+}

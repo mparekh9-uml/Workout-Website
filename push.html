@@ -1,0 +1,85 @@
+<!-- File: push.html
+GUI Assignment: Creating Your First Web Page
+Wenjin Zhou, UMass Lowell Computer Science,
+Mihir_Parekh@student.uml.edu
+Copyright (c) 2021 by Mihr. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by WZ on September 26, 2021 at 8:18 PM -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style_push.css">   <!-- Link the specific style sheet -->
+  </head>
+  <body>
+    <div class="title"> <!-- Made a div class to encorporate the two images and apply an attribute to them -->
+        <h1>PUSH</h1>
+        <img id="push-up-1" src="images/women_pushup.jpg" alt="Women Push Up"> <!-- Links images and give specific ID to deal with image specifically -->
+        <img id="push-up-2" src="images/man_pushup.jpg" alt="Man Push Up">  <!-- Links images and give specific ID to deal with image specifically -->
+        
+    </div>  
+        
+        <h2>Push Day Explained</h2>  <!-- Header for the day  -->
+
+        <div class="push-explained"> <!-- Made a another div class to encapsulate the two box classes to make code more re-usable -->
+            <div class="box"> <!-- Box div class contains text here  -->
+                <p id="text">I'm a strong believer in <strong>Pull Ups</strong>, a great excercise meant to warm the upper body up. Just want you 
+                to 3 reps where you feel the contractions in your back. Next is my favorite lift, <strong>Dumbell Bench Press</strong>. Here 
+            you have to retract your shoulder blades and angle your arms at a 45 degree angle. We want to go <strong>HEAVY</strong>, 
+        and progressively increase the weight we push. Thirdly we will target our sholders with <strong>Lateral Raises</strong>, built shoulders
+    make you appear more built. Lastly we'll finish off our push day with <strong>Cable Chest Flys</strong> to really sqeeze our chest and 
+pump as much blood into the area.</p>    
+            </div>
+                <div class="box">  <!-- Box class contains table here with another class to deal with table attributes -->
+                <table class="push-tbl">
+                    <tr>
+                        <th>Exercise Name</th>
+                        <th>Sets</th>
+                        <th>Repetitions</th>
+                        <th>Intensity</th>
+                    </tr>
+                    <tr>
+                        <td>Pull Ups</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>Light</td>
+                    </tr>
+                    <tr>
+                        <td>Dumbell Bench Press</td>
+                        <td>5</td>
+                        <td>4</td>
+                        <td>Heavy</td>
+                    </tr>
+                    <tr>
+                        <td>Lateral Raises</td>
+                        <td>3</td>
+                        <td>10</td>
+                        <td>Medium</td>
+                    </tr>
+                    <tr>
+                        <td>Tricep Pull Down</td>
+                        <td>3</td>
+                        <td>10</td>
+                        <td>Medium</td>
+                    </tr>
+                    <tr>
+                        <td>Cable Chest Fly</td>
+                        <td>3</td>
+                        <td>7</td>
+                        <td>Light</td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+        
+       <!-- Class for each button to handle location and attribute, meant to take you to another page -->
+    <a class="pull-btn" href="pull.html">Pull</a>
+    <a class="home-btn" href="index.html">Home</a>
+    <a class="legs-btn" href="legs.html">Legs</a>     
+	</body>
+	<!-- <script src="script.js"></script> -->
+</html>

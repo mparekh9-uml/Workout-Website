@@ -1,0 +1,80 @@
+<!-- File: legs.html
+GUI Assignment: Creating Your First Web Page
+Wenjin Zhou, UMass Lowell Computer Science,
+Mihir_Parekh@student.uml.edu
+Copyright (c) 2021 by Mihr. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by WZ on September 26, 2021 at 8:18 PM -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style_legs.css">   <!-- Link the specific style sheet -->
+  </head>
+  <body>
+    <div class="title">  <!-- Made a div class to encorporate the two images and apply an attribute to them -->
+        <h1>Legs</h1>
+        <img id="squat-man" src="images/man_squat.jpg" alt="Cartoon Man Squat"> <!-- Links images and give specific ID to deal with image specifically -->
+        <img id="squat-woman" src="images/woman_squat.jpg" alt="Cartoon Woman Squat"> <!-- Links images and give specific ID to deal with image specifically -->
+    </div>
+        
+        <h2>Leg Day Explained</h2>  <!-- Header for the day  -->
+
+        <div class="legs-explained"> <!-- Made a another div class to encapsulate the two box classes to make code more re-usable -->
+            <div class="box">  <!-- Box div class contains text here  -->
+                <p id="text">Leg Day, the most dreaded day of all. Here we will begin the workout with heavy <strong>Barbell Squats</strong>, a perfect full body excercise where we will
+                primarily target your quads and hamstrings. Depth is a big aspect of this list, to perform a propper squat you must squat low enough where your thighs are parallel to the 
+            floor. Next we will isolate our hamstrings using the <strong>Hamstrings Machine</strong> stretching and contracting on each rep. Another isometric excercise is the 
+        <strong>Leg Extension Machine</strong> where the quads are the main focus of the lift, meant to shape and tone the quads. To end the workout we will do a series of 
+        <strong>Calf Raises</strong> to help make your legs more proportional. </p>
+            </div>
+                <div class="box">  <!-- Box class contains table here with another class to deal with table attributes -->
+                <table class="legs-tbl">
+                    <tr>
+                        <th>Exercise Name</th>
+                        <th>Sets</th>
+                        <th>Repetitions</th>
+                        <th>Intensity</th>
+                    </tr>
+                    <tr>
+                        <td>Barbell Squat</td>
+                        <td>5</td>
+                        <td>4</td>
+                        <td>Heavy</td>
+                    </tr>
+                    <tr>
+                        <td>Hamstring Machine</td>
+                        <td>3</td>
+                        <td>10</td>
+                        <td>Medium</td>
+                    </tr>
+                    <tr>
+                        <td>Leg Extension Machine</td>
+                        <td>3</td>
+                        <td>10</td>
+                        <td>Medium</td>
+                    </tr>
+
+                    <tr>
+                        <td>Calf Raises</td>
+                        <td>3</td>
+                        <td>10</td>
+                        <td>Medium</td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+        
+          <!-- Class for each button to handle location and attribute, meant to take you to another page -->
+
+        <a class="push-btn" href="push.html">Push</a>
+        <a class="home-btn" href="index.html">Home</a>
+        <a class="pull-btn" href="pull.html">Pull</a>  
+   
+	</body>
+	<!-- <script src="script.js"></script> -->
+</html>

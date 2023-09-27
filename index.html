@@ -1,47 +1,57 @@
+
+<!-- File: index.html
+GUI Assignment: Creating Your First Web Page
+Wenjin Zhou, UMass Lowell Computer Science,
+Mihir_Parekh@student.uml.edu
+Copyright (c) 2021 by Mihr. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by WZ on September 26, 2021 at 8:18 PM -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_index.css"> <!-- Link the specific style sheet -->
   </head>
   <body>
-    <div class="title">
+    <div class="title"> <!-- Made a div class to encorporate the two images and apply an attribute to them -->
         <h1>Get Big</h1>
-        <img id="barbell-1" src="images/dumbell.jpg" alt="Cartoon Barbell">
-        <img id="barbell-2" src="images/dumbell.jpg" alt="Cartoon Barbell">
+        <img id="barbell-1" src="images/dumbell.jpg" alt="Cartoon Barbell"> <!-- Links images and give specific ID to deal with image specifically -->
+        <img id="barbell-2" src="images/dumbell.jpg" alt="Cartoon Barbell"> <!-- Links images and give specific ID to deal with image specifically -->
     </div>
         
-        <h2>Why Should I Gym?<h2>
+        <h2>Why Should I Gym?</h2>  <!-- Header for the day  -->
 
-
-        <p class="bullet_title">Physical Fitness</p>
-            <ul class="bullet">
-                <li>Regular exercise can help you improve your physical fitness, increase muscle mass, and enhance overall body strength.</li>
-            </ul>        
-        <p class="bullet_title">Weight Managment<p>
-            <ul class="bullet">
-                <li>If you're looking to lose weight or maintain a healthy weight, the gym is place where you can engage in calorie burning activities.</li>
-            </ul>
-        <p class="bullet_title">Health Benefits</p>
-            <ul class="bullet">
-                <li>Exercise can reduce the risk of chronic diseases such as heart disease, diabetes, and certain types of cancer. It can also improve bone density, lower blood pressure, and boost your immune system.</li>
-            </ul>
-        <p class="bullet_title">Mental Health</p>
-            <ul class="bullet">
-                <li>Exercise has been shown to have a positive impact on mental health. It can reduce symptoms of anxiety and depression, improve mood, boost self-esteem, and promote relaxation.</li>
-            </ul>
-        <p class="bullet_title">Social Interaction<p>
-            <ul class="bullet">
-                <li>Provides an opportunity to meet and connect with like-minded individuals who share similar health and fitness goals.</li>
-            </ul>
-        <p class="bullet_title">Accountability<p>
-            <ul class="bullet">
-                <li>Having a membership forces you to hold yourself accountable for your fitness, becuase your paying for it.</li>
-            </ul>
+        <div class="List">  <!-- Div Class for List that contains two classes bullet title and bullet  -->
+            <p class="bullet_title">Physical Fitness:</p> <!-- Bullet title class to apply attributes like size and bold   -->
+                <ul class="bullet">  <!-- Bullet class to apply attributes like size and bold   -->
+                    <li>Regular exercise can help you improve your physical fitness, increase muscle mass, and enhance overall body strength.</li>
+                </ul>        
+            <p class="bullet_title">Weight Managment:<p>
+                <ul class="bullet">
+                    <li>If you're looking to lose weight or maintain a healthy weight, the gym is place where you can engage in calorie burning activities.</li>
+                </ul>
+            <p class="bullet_title">Health Benefits:</p>
+                <ul class="bullet">
+                    <li>Exercise can reduce the risk of chronic diseases such as heart disease, diabetes, and certain types of cancer. It can also improve bone density, lower blood pressure, and boost your immune system.</li>
+                </ul>
+            <p class="bullet_title">Mental Health:</p>
+                <ul class="bullet">
+                    <li>Exercise has been shown to have a positive impact on mental health. It can reduce symptoms of anxiety and depression, improve mood, boost self-esteem, and promote relaxation.</li>
+                </ul>
+            <p class="bullet_title">Social Interaction:<p>
+                <ul class="bullet">
+                    <li>Provides an opportunity to meet and connect with like-minded individuals who share similar health and fitness goals.</li>
+                </ul>
+            <p class="bullet_title">Accountability:<p>
+                <ul class="bullet">
+                    <li>Having a membership forces you to hold yourself accountable for your fitness, becuase your paying for it.</li>
+                </ul>
  
+        </div>
         
-    
+    <!-- Class for each button to handle location and attribute, meant to take you to another page -->
     <a class="push-btn" href="push.html">Push</a>
     <a class="pull-btn" href="pull.html">Pull</a>
     <a class="legs-btn" href="legs.html">Legs</a>    
